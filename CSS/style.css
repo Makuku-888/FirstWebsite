@@ -1,0 +1,109 @@
+body {
+  background-color: #f4f4f4;
+  color: #555;
+  font-family: Arial,Helvetica;
+  font-size: 16px;
+  line-height: 1.6em;
+  margin: 0;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+}
+
+.clr{
+  clear: both;
+}
+
+#mainHeader{
+  background-color: gold;
+  color: #fff;
+  border: solid gold;
+}
+
+#navbar{
+  background-color: #333;
+  color: #fff;
+  border: solid #333;
+}
+
+#navbar ul{
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+#navbar li{
+  display: inline;
+  color: #fff;
+  font-size: 25px;
+  padding-right: 50px;
+}
+
+#showcase{
+  background-image: url('../Images/abstract.jpg');
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  min-height: 300px;
+  text-align: center;
+}
+
+#showcase h1{
+  color: #fff;
+  font-size: 50px;
+  line-height: 1.6em;
+  padding-top: 30px;
+}
+
+#sidebar{
+  float: left;
+  width: 20%;
+  box-sizing: border-box;
+}
+
+#main-block{
+  float: right;
+  width: 80%;
+  box-sizing: border-box;
+}
+
+.block1{
+  float: left;
+  width: 20%;
+  box-sizing: border-box;
+}
+
+.block1 h1{
+  text-align: center;
+  font-size: 35px;
+}
+
+.block2{
+  box-sizing: border-box;
+}
+
+.block3{
+  float:left;
+  text-align: left;
+  width: 80%
+  box-sizing: border-box;
+}
+
+.block4{
+  box-sizing: border-box;
+}
+
+.block4 h1{
+  text-align: center;
+  font-size: 35px;
+}
+
+#main-footer{
+  background: #AAA;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
